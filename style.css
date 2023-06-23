@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  text-align: center;
+  padding: 0.75em 0 0.75em 0;
+  font-weight: bold;
+  float: center;
+}
+img.intro {
+  width: 100%;
+  position: relative;
+  filter: brightness(40%);
+}
+.introducao {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+.introducao p {
+  text-align: justify;
+  position: absolute;
+  top: 150px;
+  padding: 2em;
+  font-size: 32px;
+  color: white;
+}
+h2.titulo-texto {
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  display: none;
+}
+h2 {
+  text-align: center;
+}
+header {
+  background-color: rgb(16, 31, 38);
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+.corpo {
+  padding: 4em 4em 4em 12em;
+  background: rgb(53, 11, 11);
+  overflow: auto;
+  text-align: justify;
+  color: #fff;
+}
+.corpo img {
+  margin-right: 6rem;
+  float: left;
+  width: 50%;
+}
+.corpo p {
+  font-size: 18px;
+  margin-bottom: 1.25rem;
+}
+.corpo h2 {
+  margin: 0 0 1.25rem;
+}
+#three {
+  color: #fff;
+  background: rgb(62, 15, 79);
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.corpo2 h2 {
+  padding-bottom: 2em;
+  font-size: 24px;
+  font-weight: bold;
+}
+.corpo2 {
+  padding: 3em 2em 2em 3em;
+  color: #fff;
+  display: inline-flex;
+}
+.corpo2 ul li {
+  list-style-type: none;
+  text-align: center;
+  font-size: 32px;
+  margin-right: 20px;
+}
+.corpo2 ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 15px 0 0 20px;
+  font-size: 18px;
+}
+#four {
+  background-color: #f0b9a8;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  color: #000;
+  text-align: center;
+}
+.corpo3 h2 {
+  padding-bottom: 2em;
+  font-size: 24px;
+  font-weight: bold;
+}
+.corpo3 {
+  padding: 3rem 2rem 2rem 3rem;
+  color: #000;
+  display: inline-flex;
+}
+.corpo3 ul li {
+  list-style-type: none;
+  text-align: center;
+  font-size: 32px;
+  margin-right: 20px;
+}
+.corpo3 ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 15px 0 0 20px;
+  font-size: 18px;
+}
+#four .boxs,
+#four .box {
+  padding: 0 2em 0 2em;
+}
