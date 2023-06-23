@@ -1,3 +1,90 @@
+@media (max-width: 450px) {
+  header {
+    display: none;
+  }
+
+  #one {
+    .introducao {
+        width: 100%;
+        display: flex;
+        position: relative;
+      }
+    .introducao p {
+        width: 100%;
+        text-align: justify;
+        display: flex;
+        font-size: 16px;
+        top:10px;
+        color: white;
+      }
+  }
+  
+  #two {
+    .corpo {
+        padding: 1.25em;
+        background: rgb(53, 11, 11);
+        color: #fff;
+      }
+    .corpo img {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 1em;
+      }
+    .corpo p {
+        padding: 1.25em;
+        padding-bottom: 1px;
+        text-align: justify;
+        font-size: 18px;
+      }
+      .corpo h2 {
+        font-size:24px;
+        text-align: center;
+      }
+  }
+  #three {
+    padding:1.25em;
+  }
+   .corpo2 {
+    color: white;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+   .corpo2 ul li {
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 2em;
+    
+  }
+   .corpo2 ul li a {
+    list-style-type: none;
+    text-decoration: none;
+  }
+  #four {
+    padding: 1.25em;
+  }
+  .corpo3 h2 {
+    padding-bottom: 2em;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 1em;
+  }
+  .corpo3 {
+    color: #000;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+  .corpo3 ul li {
+    list-style-type: none;
+    text-align: center;
+  }
+  .corpo3 ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    
+  }
+
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -32,12 +119,6 @@ img.intro {
   font-size: 32px;
   color: white;
 }
-h2.titulo-texto {
-  position: absolute;
-  text-align: center;
-  color: #fff;
-  display: none;
-}
 h2 {
   text-align: center;
 }
@@ -58,7 +139,7 @@ header {
   color: #fff;
 }
 .corpo img {
-  margin-right: 6rem;
+  margin-right: 6em;
   float: left;
   width: 50%;
 }
@@ -72,8 +153,6 @@ header {
 #three {
   color: #fff;
   background: rgb(62, 15, 79);
-  padding-top: 75px;
-  padding-bottom: 75px;
 }
 .corpo2 h2 {
   padding-bottom: 2em;
@@ -88,8 +167,6 @@ header {
 .corpo2 ul li {
   list-style-type: none;
   text-align: center;
-  font-size: 32px;
-  margin-right: 20px;
 }
 .corpo2 ul li a {
   list-style-type: none;
