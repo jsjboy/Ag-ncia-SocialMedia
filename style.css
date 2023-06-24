@@ -1,4 +1,4 @@
-@media(min-width:450px) and (max-width:768px) {
+@media (min-width:768px) {
     header, #four {
       display: none;
     }
@@ -19,7 +19,6 @@
           color: white;
         }
     }
-    
     #two {
       .corpo {
           padding: 1.25em;
@@ -59,7 +58,7 @@
     }
    }
   }
-@media(max-width: 374px) {
+@media(max-width: 450px) {
     header, #four {
         display: none;
       }
@@ -74,7 +73,7 @@
             width: 100%;
             text-align: justify;
             display: flex;
-            font-size: 14px;
+            font-size: 18px;
             padding: 1.25em;
             top: 2px;
             color: white;
@@ -121,7 +120,7 @@
      } 
 }
 
-@media(min-width:375px) and (max-width: 767px) {
+@media(max-width:375px) {
   header, #four {
     display: none;
   }
@@ -182,7 +181,67 @@
   }
  }
 }
-
+@media(max-width:320px) {
+    header, #four {
+      display: none;
+    }
+  
+    #one {
+      .introducao {
+          width: 100%;
+          display: flex;
+          position: relative;
+        }
+      .introducao p {
+          width: 100%;
+          text-align: justify;
+          display: flex;
+          font-size: 14px;
+          padding: 1.25em;
+          top: 2px;
+          color: white;
+        }
+    }
+    
+    #two {
+      .corpo {
+          padding: 1.25em;
+          background: rgb(53, 11, 11);
+          color: #fff;
+        }
+      .corpo img {
+          width: 100%;
+          text-align: center;
+          padding-bottom: 1.25em;
+        }
+      .corpo p {
+          padding: 1.25em;
+          text-align: justify;
+          font-size: 18px;
+        }
+        .corpo h2 {
+          font-size:24px;
+          text-align: center;
+        }
+    }
+    #three {
+     .corpo2 {
+      color: white;
+      display: inline-flex;
+      flex-wrap: wrap;
+    }
+     .corpo2 ul li {
+      list-style-type: none;
+      text-align: center;
+      padding-bottom: 2em;
+      
+    }
+     .corpo2 ul li a {
+      list-style-type: none;
+      text-decoration: none;
+    }
+   }
+  }
 
 * {
   box-sizing: border-box;
