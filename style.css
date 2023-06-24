@@ -1,5 +1,128 @@
-@media (max-width: 450px) {
-  header {
+@media(min-width:450px) and (max-width:768px) {
+    header, #four {
+      display: none;
+    }
+  
+    #one {
+      .introducao {
+          width: 100%;
+          display: flex;
+          position: relative;
+        }
+      .introducao p {
+          width: 100%;
+          text-align: justify;
+          display: flex;
+          font-size: 32px;
+          padding: 1.50em;
+          top: 2px;
+          color: white;
+        }
+    }
+    
+    #two {
+      .corpo {
+          padding: 1.25em;
+          background: rgb(53, 11, 11);
+          color: #fff;
+        }
+      .corpo img {
+          width: 100%;
+          text-align: center;
+          padding-bottom: 1.25em;
+        }
+      .corpo p {
+          padding: 1.25em;
+          text-align: justify;
+          font-size: 18px;
+        }
+        .corpo h2 {
+          font-size:24px;
+          text-align: center;
+        }
+    }
+    #three {
+     .corpo2 {
+      color: white;
+      display: inline-flex;
+      flex-wrap: wrap;
+    }
+     .corpo2 ul li {
+      list-style-type: none;
+      text-align: center;
+      padding-bottom: 2em;
+      
+    }
+     .corpo2 ul li a {
+      list-style-type: none;
+      text-decoration: none;
+    }
+   }
+  }
+@media(max-width: 374px) {
+    header, #four {
+        display: none;
+      }
+    
+      #one {
+        .introducao {
+            width: 100%;
+            display: flex;
+            position: relative;
+          }
+        .introducao p {
+            width: 100%;
+            text-align: justify;
+            display: flex;
+            font-size: 14px;
+            padding: 1.25em;
+            top: 2px;
+            color: white;
+          }
+      }
+      
+      #two {
+        .corpo {
+            padding: 1.25em;
+            background: rgb(53, 11, 11);
+            color: #fff;
+          }
+        .corpo img {
+            width: 100%;
+            text-align: center;
+            padding-bottom: 1.25em;
+          }
+        .corpo p {
+            padding: 1.25em;
+            text-align: justify;
+            font-size: 18px;
+          }
+          .corpo h2 {
+            font-size:24px;
+            text-align: center;
+          }
+      }
+      #three {
+       .corpo2 {
+        color: white;
+        display: inline-flex;
+        flex-wrap: wrap;
+      }
+       .corpo2 ul li {
+        list-style-type: none;
+        text-align: center;
+        padding-bottom: 2em;
+        
+      }
+       .corpo2 ul li a {
+        list-style-type: none;
+        text-decoration: none;
+      }
+     } 
+}
+
+@media(min-width:375px) and (max-width: 767px) {
+  header, #four {
     display: none;
   }
 
@@ -13,7 +136,7 @@
         width: 100%;
         text-align: justify;
         display: flex;
-        font-size: 17px;
+        font-size: 16px;
         padding: 1.25em;
         top: 2px;
         color: white;
@@ -57,12 +180,9 @@
     list-style-type: none;
     text-decoration: none;
   }
+ }
 }
 
-  #four {
-    display: none;
-  }   
-}
 
 * {
   box-sizing: border-box;
