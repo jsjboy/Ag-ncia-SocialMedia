@@ -62,6 +62,7 @@
   #four {
     display: none;
 }
+}
 
 * {
   box-sizing: border-box;
@@ -184,5 +185,4 @@ header {
 #four .boxs,
 #four .box {
   padding: 0 2em 0 2em;
-}
 }
