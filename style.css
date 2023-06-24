@@ -13,8 +13,8 @@
         width: 100%;
         text-align: justify;
         display: flex;
-        font-size: 14px;
-        top:10px;
+        font-size: 18px;
+        top: 2px;
         color: white;
       }
   }
@@ -41,8 +41,6 @@
       }
   }
   #three {
-    padding:1.25em;
-  }
    .corpo2 {
     color: white;
     display: inline-flex;
@@ -58,9 +56,11 @@
     list-style-type: none;
     text-decoration: none;
   }
+}
+
   #four {
     display: none;
-}
+  }   
 }
 
 * {
